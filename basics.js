@@ -73,3 +73,54 @@ else {
      counter -- ;
  }
  console.log("Happy new year!")
+
+
+
+
+
+
+let item = "Rock"
+
+for (let letter of item) {
+    console.log(letter)
+}
+ let colour = "black"
+ let colourRock = item + colour
+ 
+ let shape = prompt("Enter shape")
+  console.log(shape)
+  console.log(colourRock)
+  
+  
+  
+// Arrays
+
+let nums = [123, 456, 789];
+let schools = ["RI", "ASR"];
+
+console.log(schools.length);
+schools.push("TMJC"); // aka append
+schools.push("HCI")
+console.log(schools);
+schools.pop()
+console.log(schools)
+
+
+// Object ( like dictionaries in Python)
+let person = {
+    name:"Janelle",
+    age:17,
+    isStudent:true
+}
+
+console.log(person["name"]);  // two methods do same thing
+console.log(person.name);
+
+
+// Functions
+
+function cube(x) {
+    return x ** 3;
+}
+
+console.log(cube(123));
